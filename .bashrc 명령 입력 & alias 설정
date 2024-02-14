@@ -1,6 +1,8 @@
 ## sublime text로 .bashrc열기
  - subl~/.bashrc
 
+## 터미널이 새로 실행되면 opt 경로의 setup.bash를 source 명령으로 읽어야함
+
 ## ROS2 입력하기위해 source 명령을 경로와 함께 입력해야합
  - source /opt/ros/galactic/setup.bash
 
@@ -17,3 +19,4 @@
 
 ##  source~/.bashrc alias로 지정
  - alias sb="source ~/.bashrc; echo \"Bashrc is reloaed.\""
+
