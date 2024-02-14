@@ -20,3 +20,5 @@
 ##  source~/.bashrc alias로 지정
  - alias sb="source ~/.bashrc; echo \"Bashrc is reloaed.\""
 
+## Domain 설정, 같은 공간에서 도메인 ID를 각자 설정할 필요가 있음
+ - alias ros_domain="export ROS_DOMAIN_ID=1"
