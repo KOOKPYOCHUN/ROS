@@ -9,7 +9,6 @@ ros2 service type
 ros2 intetface show
  ex) ros2 interface show turtlesim/srv/TeleportAbsolute
 
-
 ## Service Request
 ros2 service call <service name> <service definition> "data"
  ex) ros2 service call /turtle1/teleport_absolute turtlesim/srv/TeleportAbsolute "{x: 2, y:2, theata: 1.57}"
