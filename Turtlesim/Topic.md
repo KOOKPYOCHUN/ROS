@@ -7,12 +7,12 @@ ros2 topic list
 #### Topic Data Type(메시지 타입) 조회
 ```
 ros2 topic type or ros2 topic list -t(Topic 전체 메시지 타입 조회)
-ex)ros2 topic type /turtle1/pose
+ex) ros2 topic type /turtle1/pose
 ```
 #### 현재 토픽이 발행되고 있는 건지 또는 구독을 대기하고 있는 토픽인지 확인
 ```
 ros2 topic info
-ex)ros2 topic info /turtle1/pose
+ex) ros2 topic info /turtle1/pose
 ```
 - 현재 사용할 수 있는 /turtle/pose라는 토픽이 발행되는지 구독대기인 토픽인지 확인
 - topic info 명령을 사용, 어떤 메시지 타입을 사용하고 구독과 발행하는 노드의 개수를 확인
@@ -25,7 +25,7 @@ ros2 optinc list -v </code>
 #### 토픽 사용을위해 메시지 타입 확인
 ```
 ros2 interface show
-ros2 interface show turtlesim/msg/Pose
+ex) ros2 interface show turtlesim/msg/Pose
 ```
 #### 토픽을 구독할 수 있는 명령을 이용하여 토픽 구독
 ```
