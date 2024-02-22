@@ -11,7 +11,7 @@
   ex) ros2 topic info /turtle1/pose #현재 사용할 수 있는 /turtle/pose라는 토픽이 발행되는지 구독대기인 토픽인지 확인
   #### topic info 명령을 사용, 어떤 메시지 타입을 사용하고 구독과 발행하는 노드의 개수를 확인
   #### 일일이 확인이 어려우면 
-    ex) ros2 optinc list -v # 각 토픽의 이름, 데이터형, 구독 발행 상황 한 번에 확인
+    <code>ros2 optinc list -v</code> # 각 토픽의 이름, 데이터형, 구독 발행 상황 한 번에 확인
 
 #### 토픽 사용을위해 메시지 타입 확인
  - ros2 interface show
