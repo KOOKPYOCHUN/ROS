@@ -1,14 +1,19 @@
 #### Topic은 발행(Publish)과 구독(Subscribe)으로 되어있는 개념
 
 #### Topic 조회
-<code>ros2 topic list</code>  
+```
+ros2 topic list
+```
 #### Topic Data Type(메시지 타입) 조회
-<code>ros2 topic type or ros2 topic list -t(Topic 전체 메시지 타입 조회) </code><br>
-   <code>ros2 topic type /turtle1/pose</code>
-
+```
+ros2 topic type or ros2 topic list -t(Topic 전체 메시지 타입 조회)
+ex)ros2 topic type /turtle1/pose
+```
 #### 현재 토픽이 발행되고 있는 건지 또는 구독을 대기하고 있는 토픽인지 확인
-<code>ros2 topic info</code><br>
-<code> ros2 topic info /turtle1/pose</code>
+```
+ros2 topic info
+ex)ros2 topic info /turtle1/pose
+```
 - 현재 사용할 수 있는 /turtle/pose라는 토픽이 발행되는지 구독대기인 토픽인지 확인
   #### topic info 명령을 사용, 어떤 메시지 타입을 사용하고 구독과 발행하는 노드의 개수를 확인
   #### 일일이 확인이 어려우면 
