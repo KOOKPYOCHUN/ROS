@@ -3,7 +3,7 @@
 #### Topic 조회
  <code>ros2 topic list</code>
 #### Topic Data Type(메시지 타입) 조회
- - ros2 topic type or ros2 topic list -t(Topic 전체 메시지 타입 조회)
+####ros2 topic type or ros2 topic list -t(Topic 전체 메시지 타입 조회)
    <code>ros2 topic type /turtle1/pose</code>
 
 #### 현재 토픽이 발행되고 있는 건지 또는 구독을 대기하고 있는 토픽인지 확인
