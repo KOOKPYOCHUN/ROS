@@ -16,10 +16,10 @@
     -각 토픽의 이름, 데이터형, 구독 발행 상황 한 번에 확인
 
 #### 토픽 사용을위해 메시지 타입 확인
-'''
+```
 ros2 interface show
 ros2 interface show turtlesim/msg/Pose
-'''
+```
 #### 토픽을 구독할 수 있는 명령을 이용하여 토픽 구독
  - ros2 topic echo
   ex) ros2 topic echo /turtle1/pose갠
