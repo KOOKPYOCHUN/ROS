@@ -1,4 +1,4 @@
-# Topic은 발행(Publish)과 구독(Subscribe)으로 되어있는 개념
+## Topic은 발행(Publish)과 구독(Subscribe)으로 되어있는 개념
 
 ## Topic 조회
  <code>\ ros2 topic list <code>
