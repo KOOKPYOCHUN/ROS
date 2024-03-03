@@ -15,4 +15,4 @@ ros2 action list
 ros2 action list -t
 -> turtlesim/action/RotateAbsolte -> /turtle1/rotate_absolute 액션을 사용하기 위해 알아야하는 것들
 ```
-<img src="./ROS2/Turtlesim/Image/turtlesim_action_RotateAbsolute.png", height="100x", width="100px">
+<img src="https://github.com/KOOKPYOCHUN/ROS2/blob/main/Turtlesim/Image/turtlesim_action_RotateAbsolute.png", height="100x", width="100px">
