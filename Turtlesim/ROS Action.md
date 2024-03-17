@@ -22,4 +22,3 @@ ros2 action list -t
 ros2 action send_goal /turtle1/rotate_absolute turtlesim/action/RotateAbsolute "{theta: 3.14}"
 ```
 - turtlesim/action/RotateAbsolute라는 데이터 타입을 가진 turtle1/rotate_absolute라는 액션에 3.14를 인가한 것
-- 
