@@ -16,6 +16,7 @@ test_node.create_subscription(Pose, '/turtle1/pose', callback, 10) # test_node�
 
 rp.spin_onca(test_node) # spin_once 명령을 통해 test_node를 rp.spin_onca(test_node)라고 지정, 해당 노드 구독 
 
+
 ## Note ##
 ros2 node list 사용하여 노드 생성되었는지 확인 가능
 spin_noce는 토픽을 한 번만 받는 명령
