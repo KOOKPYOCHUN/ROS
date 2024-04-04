@@ -10,6 +10,6 @@ pip3 install jupyter ipywidgets pyyaml bqplot
 reboot
 jupyter notebook
 ```
--
+
 
 
